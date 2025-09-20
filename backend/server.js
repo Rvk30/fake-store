@@ -138,7 +138,7 @@ app.put('/products/:id', async (req, res) => {
             title,
             price,
             description,
-            category,
+            category,1
             image,
             rating?.rate,
             rating?.count,
